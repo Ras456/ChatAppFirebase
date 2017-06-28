@@ -52,6 +52,13 @@ class MessagesVC: UITableViewController {
                 let message = Message()
                 message.setValuesForKeys(dict)
                 self.messages.append(message)
+                if let toId = message.toId {
+                self.messagesDict[toId] = message
+                self.messages = Array(self.messagesDict.values)
+                self.messages.sort(by: { (m1, m2) -> Bool in
+                    return (m1.timestamp?.intValue)! > (m2.timestamp?.intValue)!
+                })
+                }
                 DispatchQueue.main.async() {
                 self.tableView.reloadData()
                 }
