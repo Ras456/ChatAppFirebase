@@ -1,0 +1,6 @@
+framework module Pods_chatAppWithFirebaseUITests {
+  umbrella header "Pods-chatAppWithFirebaseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
