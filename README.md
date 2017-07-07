@@ -1,1 +1,1 @@
-# ChatAppFirebase Swift 4
+# ChatApp with using Firebase (Swift 4)
