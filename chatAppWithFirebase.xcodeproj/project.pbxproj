@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		140235FF8488C6D37967C55A /* Pods_chatAppWithFirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566ED3F116F04782A4BA1B2D /* Pods_chatAppWithFirebaseTests.framework */; };
 		1E573E0D3570C302E3EE59ED /* Pods_chatAppWithFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28EDF85CC2E0E8B4840D28A /* Pods_chatAppWithFirebase.framework */; };
+		3B0385611F0CB83E001DE5F7 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0385601F0CB83E001DE5F7 /* ForgotPasswordController.swift */; };
+		3B0385631F0E0EAD001DE5F7 /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0385621F0E0EAD001DE5F7 /* EditProfileController.swift */; };
 		3B226C591F028A8D00B3C038 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B226C581F028A8D00B3C038 /* UserCell.swift */; };
-		3B459D9B1EF55CC60010A773 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B459D9A1EF55CC60010A773 /* LoginViewController.swift */; };
-		3B4A4E9E1EFA82CA008F9A18 /* NewMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A4E9D1EFA82CA008F9A18 /* NewMessageVC.swift */; };
+		3B4352021F06AC59009ABD2D /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4352011F06AC59009ABD2D /* ChatMessageCell.swift */; };
+		3B4352041F0BC0E4009ABD2D /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4352031F0BC0E4009ABD2D /* ChatInputContainerView.swift */; };
+		3B459D9B1EF55CC60010A773 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B459D9A1EF55CC60010A773 /* LoginController.swift */; };
+		3B4A4E9E1EFA82CA008F9A18 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A4E9D1EFA82CA008F9A18 /* NewMessageController.swift */; };
 		3B4A4EA11EFA8A74008F9A18 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A4EA01EFA8A74008F9A18 /* User.swift */; };
-		3B4AC5C51EFBAA530041CA25 /* HandlersToLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4AC5C41EFBAA530041CA25 /* HandlersToLoginViewController.swift */; };
+		3B4AC5C51EFBAA530041CA25 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4AC5C41EFBAA530041CA25 /* LoginController+handlers.swift */; };
 		3B4D3CDD1EF4064500713BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D3CDC1EF4064500713BFC /* AppDelegate.swift */; };
-		3B4D3CDF1EF4064500713BFC /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D3CDE1EF4064500713BFC /* MessagesVC.swift */; };
+		3B4D3CDF1EF4064500713BFC /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D3CDE1EF4064500713BFC /* MessagesController.swift */; };
 		3B4D3CE21EF4064500713BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4D3CE01EF4064500713BFC /* Main.storyboard */; };
 		3B4D3CE71EF4064500713BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4D3CE61EF4064500713BFC /* Assets.xcassets */; };
 		3B4D3CEA1EF4064500713BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4D3CE81EF4064500713BFC /* LaunchScreen.storyboard */; };
@@ -49,14 +53,18 @@
 /* Begin PBXFileReference section */
 		01F87886DC3F56DAD5FA5BFE /* Pods-chatAppWithFirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatAppWithFirebaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatAppWithFirebaseTests/Pods-chatAppWithFirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1CCCB60CBAEE51C4C2683C82 /* Pods-chatAppWithFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatAppWithFirebaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatAppWithFirebaseTests/Pods-chatAppWithFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B0385601F0CB83E001DE5F7 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		3B0385621F0E0EAD001DE5F7 /* EditProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
 		3B226C581F028A8D00B3C038 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
-		3B459D9A1EF55CC60010A773 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		3B4A4E9D1EFA82CA008F9A18 /* NewMessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageVC.swift; sourceTree = "<group>"; };
+		3B4352011F06AC59009ABD2D /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		3B4352031F0BC0E4009ABD2D /* ChatInputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		3B459D9A1EF55CC60010A773 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		3B4A4E9D1EFA82CA008F9A18 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
 		3B4A4EA01EFA8A74008F9A18 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		3B4AC5C41EFBAA530041CA25 /* HandlersToLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandlersToLoginViewController.swift; sourceTree = "<group>"; };
+		3B4AC5C41EFBAA530041CA25 /* LoginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
 		3B4D3CD91EF4064500713BFC /* chatAppWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatAppWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4D3CDC1EF4064500713BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B4D3CDE1EF4064500713BFC /* MessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
+		3B4D3CDE1EF4064500713BFC /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		3B4D3CE11EF4064500713BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B4D3CE61EF4064500713BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B4D3CE91EF4064500713BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -119,22 +127,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3B226C571F028A7D00B3C038 /* Views */ = {
+		3B226C571F028A7D00B3C038 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				3B226C581F028A8D00B3C038 /* UserCell.swift */,
+				3B4352011F06AC59009ABD2D /* ChatMessageCell.swift */,
+				3B4352031F0BC0E4009ABD2D /* ChatInputContainerView.swift */,
 			);
-			name = Views;
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		3B459D991EF55C750010A773 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3B459D9A1EF55CC60010A773 /* LoginViewController.swift */,
-				3B4AC5C41EFBAA530041CA25 /* HandlersToLoginViewController.swift */,
-				3B4D3CDE1EF4064500713BFC /* MessagesVC.swift */,
-				3B4A4E9D1EFA82CA008F9A18 /* NewMessageVC.swift */,
+				3B459D9A1EF55CC60010A773 /* LoginController.swift */,
+				3B4AC5C41EFBAA530041CA25 /* LoginController+handlers.swift */,
+				3B4D3CDE1EF4064500713BFC /* MessagesController.swift */,
+				3B4A4E9D1EFA82CA008F9A18 /* NewMessageController.swift */,
 				3BF282761F00F67400097AA6 /* ChatLogController.swift */,
+				3B0385601F0CB83E001DE5F7 /* ForgotPasswordController.swift */,
+				3B0385621F0E0EAD001DE5F7 /* EditProfileController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -173,7 +185,7 @@
 		3B4D3CDB1EF4064500713BFC /* chatAppWithFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				3B226C571F028A7D00B3C038 /* Views */,
+				3B226C571F028A7D00B3C038 /* Cells */,
 				3B459D991EF55C750010A773 /* Controllers */,
 				3BCC9D891EFFCDEC00B7B826 /* Others */,
 				3B4A4E9F1EFA8A5B008F9A18 /* Models */,
@@ -299,23 +311,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Євген Хижняк";
 				TargetAttributes = {
 					3B4D3CD81EF4064500713BFC = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = S92VLKHVPK;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					3B4D3CEF1EF4064500713BFC = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = S92VLKHVPK;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3B4D3CD81EF4064500713BFC;
 					};
 					3B4D3CFA1EF4064500713BFC = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = S92VLKHVPK;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3B4D3CD81EF4064500713BFC;
 					};
@@ -513,14 +528,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BF282771F00F67400097AA6 /* ChatLogController.swift in Sources */,
-				3B4AC5C51EFBAA530041CA25 /* HandlersToLoginViewController.swift in Sources */,
+				3B4AC5C51EFBAA530041CA25 /* LoginController+handlers.swift in Sources */,
 				3BF282791F013D0600097AA6 /* Utils.swift in Sources */,
-				3B459D9B1EF55CC60010A773 /* LoginViewController.swift in Sources */,
-				3B4A4E9E1EFA82CA008F9A18 /* NewMessageVC.swift in Sources */,
-				3B4D3CDF1EF4064500713BFC /* MessagesVC.swift in Sources */,
+				3B0385611F0CB83E001DE5F7 /* ForgotPasswordController.swift in Sources */,
+				3B459D9B1EF55CC60010A773 /* LoginController.swift in Sources */,
+				3B4A4E9E1EFA82CA008F9A18 /* NewMessageController.swift in Sources */,
+				3B4D3CDF1EF4064500713BFC /* MessagesController.swift in Sources */,
 				3B4A4EA11EFA8A74008F9A18 /* User.swift in Sources */,
 				3BF2827B1F013F6E00097AA6 /* Message.swift in Sources */,
 				3B4D3CDD1EF4064500713BFC /* AppDelegate.swift in Sources */,
+				3B4352021F06AC59009ABD2D /* ChatMessageCell.swift in Sources */,
+				3B0385631F0E0EAD001DE5F7 /* EditProfileController.swift in Sources */,
+				3B4352041F0BC0E4009ABD2D /* ChatInputContainerView.swift in Sources */,
 				3B226C591F028A8D00B3C038 /* UserCell.swift in Sources */,
 				3BCC9D8B1EFFCE0700B7B826 /* Extentions.swift in Sources */,
 			);
@@ -587,7 +606,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -595,7 +616,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -618,12 +643,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -637,7 +663,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -645,7 +673,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -662,10 +694,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -680,7 +713,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyzhnyakevhen.chatAppWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -694,7 +728,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyzhnyakevhen.chatAppWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -709,7 +744,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyzhnyakevhen.chatAppWithFirebaseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chatAppWithFirebase.app/chatAppWithFirebase";
 			};
 			name = Debug;
@@ -725,7 +761,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyzhnyakevhen.chatAppWithFirebaseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chatAppWithFirebase.app/chatAppWithFirebase";
 			};
 			name = Release;
@@ -740,7 +777,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyzhnyakevhen.chatAppWithFirebaseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = chatAppWithFirebase;
 			};
 			name = Debug;
@@ -755,7 +793,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyzhnyakevhen.chatAppWithFirebaseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = chatAppWithFirebase;
 			};
 			name = Release;
